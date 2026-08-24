@@ -1,264 +1,363 @@
 <div align="center">
 
-🎓 VP Courses — Academy Admin Training Project
+# 🎓 VP Courses — Course Management System
 
-PHP & MySQL Web Development Internship Project
+### Level 2 — Backend & Database Development Training Project
 
-Violet Programming — Software Company | Beirut–Tyre, Lebanon
+**PHP • MySQL • HTML5 • CSS3 • Bootstrap • JavaScript**
 
-A small, early-stage web development training project focused on learning how an Admin Panel, MySQL database, and public academy website work together.
-
-
-
-Training Focus: Frontend & Backend Web Development PracticeTraining Institution: Violet ProgrammingSupervisor: Ms. Kawthar Muslimani — Full Stack Web DeveloperAcademic Year: 2024–2025
+**Violet Programming — Software Company | Beirut–Tyre, Lebanon**  
+**Supervisor:** Ms. Kawthar Muslimani — Full Stack Web Developer  
+**Academic Year:** 2024–2025
 
 </div>
 
-📖 About This Repository
-
-This repository represents one of my first practical PHP/MySQL projects, completed during my early web development training at Violet Programming.
-
-It should be understood as a training project, not as a complete commercial Learning Management System and not as a full platform developed from zero.
-
-During this stage of my learning, my hands-on work focused mainly on the Admin Panel and on understanding how administrative CRUD operations can update content displayed on a public academy website.
-
-The purpose of the project was to practice and understand concepts such as:
-
-PHP and MySQL integration
-
-Database connections
-
-CRUD operations
-
-Dynamic content retrieval
-
-Admin-side content management
-
-Image handling
-
-Basic authentication and sessions
-
-Connecting backend-managed data to a frontend website
-
-This project is preserved on GitHub to document my learning progression and the practical experience gained during my first web development internship/training period.
-
-🎓 Internship Context
-
-The work was completed during my training at Violet Programming, a software company documented in my internship report as working in web applications, mobile applications, and custom software solutions.
-
-The training covered both frontend and backend development and was supervised by Ms. Kawthar Muslimani, Full Stack Web Developer.
-
-The internship included two main learning stages:
-
-Level 1 — Frontend DevelopmentA tourism website project was used to practice HTML, CSS, Bootstrap, JavaScript, responsive layouts, and page structure.
-
-Level 2 — Backend / Database DevelopmentAcademy-management work was used to practice PHP, MySQL, database integration, CRUD operations, forms, and dynamic data display.
-
-This repository belongs to that early backend/database learning stage.
-
-Important: This repository does not represent a large production system. It is intentionally presented as a small internship training project that helped build the technical foundation used in later, more advanced projects.
-
-👩‍💻 My Contribution
-
-My practical contribution in this project focused primarily on the administrator side and its connection to the public academy interface.
-
-Admin-side work included:
-
-Admin sign in and logout workflow
-
-Admin dashboard access
-
-Banner management
-
-About-section management
-
-Course-card management
-
-Instructor-card management
-
-Student testimonial management
-
-Add / Edit / Update / Delete operations
-
-Image upload/update handling
-
-Reading and writing data through MySQL
-
-Displaying updated database content on the public academy page
-
-The goal was not to build every possible academy role or workflow, but to understand how a basic database-driven web application is structured and managed.
-
-🛡️ Admin Panel
-
-The Admin Panel is the main functional area demonstrated in this repository.
-
-Available management sections
-
-Section
-
-Purpose
-
-Dashboard
-
-Provides access to the administration area and project overview
-
-Banner
-
-Manages the main academy banner / hero content
-
-About
-
-Updates academy information displayed publicly
-
-Courses
-
-Adds, edits, updates, and deletes course cards
-
-Instructors
-
-Manages instructor information shown on the public website
-
-Students
-
-Manages student testimonial content
-
-Client Side
-
-Opens the public-facing academy website
-
-CRUD operations tested
-
-The administrative sections support the core operations practiced during training:
-
-Create → Read → Update → Delete
-
-The related changes are stored in MySQL and reflected on the client-facing website where applicable.
-
-🌐 Client-Side Academy Website
-
-The repository also contains a public academy interface under:
-
-vpCourses/
-
-Its purpose is to display content managed through the administration area.
-
-The public page includes sections such as:
-
-Hero / Banner
-
-About the academy
-
-Popular courses
-
-Instructor cards
-
-Student testimonials
-
-Contact information
-
-This demonstrates the connection between:
-
+---
+
+## 📑 Table of Contents
+
+- [Overview](#overview)
+- [Internship Context](#internship-context)
+- [My Contribution](#my-contribution)
+- [Admin Sign In](#admin-sign-in)
+- [Admin Dashboard](#admin-dashboard)
+- [Banner Management](#banner-management)
+- [About Management](#about-management)
+- [Course Management](#course-management)
+- [Instructor Management](#instructor-management)
+- [Student Testimonials](#student-testimonials)
+- [Public Academy Website](#public-academy-website)
+- [Responsive Public View](#responsive-public-view)
+- [Database](#database)
+- [Technology Stack](#technology-stack)
+- [Project Structure](#project-structure)
+- [Local Setup](#local-setup)
+- [Testing](#testing)
+- [Learning Outcomes](#learning-outcomes)
+- [Related Internship Project](#related-internship-project)
+- [Acknowledgment](#acknowledgment)
+- [Project Status](#project-status)
+- [Author](#author)
+
+---
+
+## Overview
+
+**VP Courses** is an academy/course-management training project completed during **Level 2 — Backend & Database Development** of my web development training at **Violet Programming**.
+
+This stage introduced me to PHP, MySQL, CRUD operations, sessions, forms, image handling, and the relationship between an administration panel, a database, and a public-facing website.
+
+The main workflow practiced in this project was:
+
+```text
 Admin Panel
     ↓
 MySQL Database
     ↓
 Public Academy Website
+```
 
-🗃️ Database
+My hands-on contribution focused primarily on the **Admin side** and on managing content that is stored in MySQL and displayed on the public academy interface.
+
+This repository documents an early backend/database learning stage in my development journey.
+
+---
+
+## Internship Context
+
+My training at **Violet Programming** was structured around two practical levels.
+
+### Level 1 — Frontend Development
+
+The first stage focused on:
+
+- HTML
+- CSS
+- Bootstrap
+- JavaScript
+- Navigation
+- Forms
+- Responsive layout techniques
+- Building a complete frontend website
+
+That stage is represented by the **Nomadica Tourism Website**.
+
+### Level 2 — Backend & Database Development
+
+**VP Courses** represents the second stage of the same training.
+
+The main focus was:
+
+- PHP
+- MySQL
+- Database connections
+- CRUD operations
+- Sessions
+- Forms
+- Image/file handling
+- Dynamic content retrieval
+- Connecting Admin-managed data to a public website
+
+Together, the two projects document the progression of the internship from frontend fundamentals to introductory full-stack development.
+
+---
+
+## My Contribution
+
+My practical work in VP Courses focused mainly on the administrator workflow and its connection to the public academy website.
+
+I worked on:
+
+- Admin sign in and logout
+- Admin dashboard
+- Banner management
+- About-section management
+- Course management
+- Instructor management
+- Student testimonial management
+- Add / Edit / Update / Delete operations
+- Image upload, update, and deletion handling
+- PHP/MySQL database interaction
+- Dynamic data retrieval
+- Displaying updated Admin-managed content on the client side
+- Testing the main Admin/Public workflow locally with XAMPP
+
+---
+
+## Admin Sign In
+
+The Admin Sign In page provides access to the protected management area using administrator credentials and session-based authentication.
+
+![Admin Sign In](screenshots/01-login.png)
+
+---
+
+## Admin Dashboard
+
+The Admin Dashboard is the central entry point to the management area and provides navigation to the different content sections used during the training project.
+
+![Admin Dashboard](screenshots/02-admin-dashboard.png)
+
+---
+
+## Banner Management
+
+The Banner section allows the administrator to update the main public-site hero content.
+
+The editable data includes:
+
+- Banner image
+- Main description
+- Secondary description
+
+Changes are stored in MySQL and reflected on the public academy website.
+
+![Banner Management](screenshots/03-banner-management.png)
+
+---
+
+## About Management
+
+The About section allows the administrator to update academy information that appears on the public website.
+
+This section helped demonstrate how backend-managed content can be stored in a database and rendered dynamically on the client side.
+
+The public About/statistics area can be seen below:
+
+![Public About and Statistics](screenshots/07-public-about-statistics.png)
+
+---
+
+## Course Management
+
+The Courses section supports the CRUD workflow practiced during the training.
+
+The administrator can:
+
+- Add courses
+- Edit course information
+- Update course images and details
+- Delete courses
+
+Course data includes:
+
+- Course image
+- Course name
+- Instructor
+- Price
+- Duration
+- Student count
+
+![Course Management](screenshots/04-courses-management.png)
+
+---
+
+## Instructor Management
+
+The Instructors section allows the administrator to manage instructor information displayed on the academy website.
+
+The administrator can:
+
+- Add instructors
+- Edit instructor information
+- Update instructor images
+- Delete instructors
+
+![Instructor Management](screenshots/05-instructors-management.png)
+
+---
+
+## Student Testimonials
+
+The Students section in this training project is used to manage testimonial content shown on the public academy website.
+
+The administrator can:
+
+- Add testimonial entries
+- Edit student names and comments
+- Update student images
+- Delete testimonial records
+
+![Student Testimonials Management](screenshots/06-student-testimonials-management.png)
+
+---
+
+## Public Academy Website
+
+The repository also contains a public-facing academy interface under:
+
+```text
+vpCourses/
+```
+
+The client side displays information managed through the Admin Panel, including:
+
+- Hero / Banner
+- Academy statistics
+- About content
+- Popular courses
+- Instructor information
+- Student testimonials
+- Contact information
+
+This demonstrates the connection between:
+
+```text
+Admin Panel
+    ↓
+MySQL Database
+    ↓
+Public Website
+```
+
+### Testimonials & Contact
+
+![Public Testimonials and Footer](screenshots/08-public-testimonials-footer.png)
+
+---
+
+## Responsive Public View
+
+The public academy interface was also reviewed on smaller screen sizes.
+
+These screenshots document how the public content adapts to a narrower viewport.
+
+### Mobile Home
+
+![Mobile Home](screenshots/09-mobile-home.png)
+
+### Mobile Courses
+
+![Mobile Courses](screenshots/10-mobile-courses.png)
+
+---
+
+## Database
 
 The MySQL database dump is included at:
 
+```text
 database/vpcourses1.sql
+```
 
-The database contains both the tables used by the tested Admin/Client workflow and additional academy-management structures preserved from the training project.
+The tested Admin/Public workflow uses data related to:
 
-Admin / public-content tables include areas for:
+- Admin authentication
+- Banner content
+- About content
+- Courses
+- Instructors
+- Student testimonials
+- Contact information
 
-About content
+The original training database also contains additional academy-related structures such as:
 
-Banner content
+- Students
+- Instructors
+- Course types
+- Courses
+- Course schedules
+- Registrations
 
-Courses
+These structures are preserved as part of the original training database.
 
-Instructors
+The repository only presents as completed features the workflows that are available and testable in the recovered project files.
 
-Student testimonials
+---
 
-Contact information
+## Technology Stack
 
-Additional training structures
+### Backend
 
-The database also contains tables related to broader academy concepts such as:
+- PHP
+- MySQL
+- MySQLi
+- Session-based authentication
 
-Students
+### Frontend
 
-Instructors
+- HTML5
+- CSS3
+- Bootstrap
+- JavaScript
+- DataTables
+- Supporting frontend libraries
 
-Course types
+### Development Environment
 
-Courses
+- XAMPP
+- Apache
+- phpMyAdmin
+- Visual Studio Code
+- Git
+- GitHub
 
-Course schedules
+---
 
-Registrations
+## Project Structure
 
-The complete user interfaces for every extended database workflow are not present in the recovered project files, so this repository does not claim those areas as completed application features.
-
-This distinction is intentional so the repository accurately represents the work that is actually available and testable.
-
-🧰 Technology Stack
-
-Backend
-
-PHP
-
-MySQL
-
-Session-based authentication
-
-Frontend
-
-HTML5
-
-CSS3
-
-JavaScript
-
-Bootstrap
-
-DataTables / supporting frontend libraries used by the project
-
-Development Environment
-
-XAMPP
-
-Apache
-
-phpMyAdmin
-
-Visual Studio Code
-
-📁 Project Structure
-
+```text
 vp-courses-training-project/
 │
-├── common/                   # Shared admin components and authentication guard
-├── css/                      # Admin-side styles
+├── common/                         # Shared admin components / auth guard
+├── css/                            # Admin-side styles
 ├── database/
-│   └── vpcourses1.sql        # MySQL database
-├── img/                      # Admin images and local assets
-├── js/                       # JavaScript and admin UI scripts
-├── lib/                      # Supporting frontend libraries
-├── vpCourses/                # Public academy/client-side website
+│   └── vpcourses1.sql              # MySQL database dump
+├── img/                            # Admin-side images/assets
+├── js/                             # JavaScript files
+├── lib/                            # Supporting frontend libraries
+├── screenshots/                    # Project screenshots
+├── scss/                           # Original style source files
+├── vpCourses/                      # Public academy/client-side website
 │
-├── signin.php                # Admin sign in
-├── logout.php                # Logout
-├── index.php                 # Admin dashboard
-├── banner.php                # Banner management
-├── about.php                 # About management
-├── adminCourse.php           # Course management
-├── adminInstructor.php       # Instructor management
-├── adminStudent.php          # Student testimonial management
+├── signin.php                      # Admin sign in
+├── logout.php                      # Logout
+├── index.php                       # Admin dashboard
+├── banner.php                      # Banner management
+├── about.php                       # About management
+├── adminCourse.php                 # Course management
+├── adminInstructor.php             # Instructor management
+├── adminStudent.php                # Student testimonial management
 │
 ├── addAdminCourse.php
 ├── updateAdminCourse.php
@@ -274,181 +373,161 @@ vp-courses-training-project/
 │
 ├── .gitignore
 └── README.md
+```
 
-✅ Tested Functionality
+---
 
-Before preparing this repository for GitHub, the recovered project was reviewed and the main available workflow was tested.
+## Local Setup
 
-Confirmed working areas
-
-✅ Admin sign in
-
-✅ Admin dashboard
-
-✅ Banner page
-
-✅ About page
-
-✅ Course management page
-
-✅ Instructor management page
-
-✅ Student testimonial management page
-
-✅ Public client-side academy page
-
-✅ Add operations
-
-✅ Edit / Update operations
-
-✅ Delete operations
-
-✅ Database-driven content updates
-
-🧹 Repository Preparation
-
-The recovered training files were prepared for public portfolio use without changing the original project into a different or more advanced application.
-
-Cleanup focused on:
-
-Preserving the original training scope
-
-Removing clearly orphaned files that referenced unavailable pages/actions
-
-Removing unused duplicate assets where safe
-
-Adding consistent Admin session protection
-
-Improving login/database query safety
-
-Improving logout/session handling
-
-Fixing broken local paths and case-sensitive links
-
-Fixing broken demo image references
-
-Organizing the database dump under database/
-
-Adding .gitignore
-
-Adding professional project documentation
-
-What was intentionally not added
-
-To keep this repository honest to the original internship scope, no new large LMS functionality was invented.
-
-The repository does not claim implementation of:
-
-Student dashboards
-
-Teacher dashboards
-
-Online course video learning
-
-Payments
-
-Certificates
-
-Full student self-registration
-
-Full teacher onboarding workflows
-
-Advanced LMS progress tracking
-
-⚙️ Local Installation
-
-Prerequisites
+### Requirements
 
 Install:
 
-XAMPP
+- XAMPP
+- Apache
+- MySQL
+- phpMyAdmin
+- A modern web browser
 
-PHP / Apache
+### 1. Clone the repository
 
-MySQL
+```bash
+git clone https://github.com/fatimahammoud-dev/vpcourses-training-project.git
+```
 
-phpMyAdmin
-
-A modern web browser
-
-1. Clone or download the repository
-
-git clone YOUR_REPOSITORY_URL
-
-2. Place the project inside XAMPP
+### 2. Move the project into XAMPP
 
 Example:
 
+```text
 C:\xampp\htdocs\vp-courses-training-project
+```
 
-3. Start the local services
+### 3. Start Apache and MySQL
 
-Open the XAMPP Control Panel and start:
+Open XAMPP and start:
 
+```text
 Apache
 MySQL
+```
 
-4. Import the database
+### 4. Import the database
 
 Open phpMyAdmin and import:
 
+```text
 database/vpcourses1.sql
+```
 
-5. Run the project
+### 5. Open the project
 
-Open:
-
+```text
 http://localhost/vp-courses-training-project/signin.php
+```
 
-Local demo credentials
+### Local Demo Credentials
 
+```text
 Username: admin
 Password: admin
+```
 
-These credentials are provided only for local demonstration of this training project. They are not production credentials.
+> These credentials are included only for local demonstration of this training project.
 
-🌱 What I Learned
+---
 
-This project was important because it was one of my first opportunities to move beyond static frontend pages and work with a real backend/database workflow.
+## Testing
 
-Through this training, I strengthened my understanding of:
+The main available workflow was tested locally using XAMPP.
 
-How PHP connects to MySQL
+Confirmed working:
 
-How relational application data is stored and retrieved
+- ✅ Admin sign in
+- ✅ Admin dashboard
+- ✅ Logout
+- ✅ Banner update
+- ✅ About update
+- ✅ Course Add / Edit / Update / Delete
+- ✅ Instructor Add / Edit / Update / Delete
+- ✅ Student testimonial Add / Edit / Update / Delete
+- ✅ Image handling
+- ✅ MySQL data updates
+- ✅ Dynamic public-site content
+- ✅ Public academy page
+- ✅ Smaller-screen public layout behavior
 
-How CRUD operations work in practice
+---
 
-How forms communicate with backend logic
+## Learning Outcomes
 
-How Admin actions affect frontend content
+VP Courses helped me move from static frontend pages toward database-driven web development.
 
-How images and database records are managed together
+Through this training stage, I strengthened my understanding of:
 
-How authentication sessions control access to administrative pages
+- Connecting PHP to MySQL
+- Reading and writing database records
+- Building CRUD workflows
+- Processing forms
+- Managing images and database content together
+- Using sessions for protected Admin pages
+- Connecting Admin actions to public website content
+- Debugging PHP/MySQL integration
+- Understanding the basic structure of a database-driven web application
 
-How frontend and backend components combine into one web application
+The value of this project is the learning progression it represents as an early backend/database training experience.
 
-Debugging and problem solving in an unfamiliar development environment
+---
 
-The value of this repository is therefore not its size, but the learning progression it represents.
+## Related Internship Project
 
-📌 Project Status
+This project represents **Level 2 — Backend & Database Development** of my web development training at Violet Programming.
 
-Status: Completed training project / portfolio archiveScope: Small internship learning projectPrimary Demonstrated Area: Admin Panel + database-driven client-side contentEnvironment: Local development with XAMPP
+The first stage of the same training focused on frontend development through:
 
-👩‍💻 Author
+### 🌍 Nomadica — Tourism Website
 
-Fatima Hammoud
+**Level 1 — Frontend Development Training**
 
-Computer & Communication Network Engineering — Lebanese University
+🔗 [View Nomadica on GitHub](https://github.com/fatimahammoud-dev/nomadica-tourism-website)
 
-This repository documents an early stage of my web development journey and the practical foundation that preceded my later full-stack internship and software projects.
+Nomadica documents the frontend stage of the internship, focusing on HTML, CSS, Bootstrap, JavaScript, navigation, forms, and responsive layout concepts.
+
+---
+
+## Acknowledgment
+
+I would like to sincerely thank **Ms. Kawthar Muslimani**, Full Stack Web Developer and my training supervisor at **Violet Programming**, for her guidance, technical support, and encouragement throughout the training period.
+
+Her mentorship helped me better understand how frontend interfaces, backend logic, and databases connect in practical web-development projects.
+
+I also thank **Violet Programming** for providing the opportunity to strengthen my frontend and backend foundations through hands-on training.
+
+---
+
+## Project Status
+
+**Status:** Completed Internship Training Project  
+**Training Stage:** Level 2 — Backend & Database Development  
+**Project Type:** Academy / Course Management Training Project  
+**Main Focus:** PHP • MySQL • CRUD • Admin Panel • Dynamic Public Content  
+**Environment:** Local development with XAMPP
+
+---
+
+## Author
+
+### Fatima Hammoud
+
+**Computer & Communication Network Engineering**  
+Lebanese University — Faculty of Technology
+
+---
 
 <div align="center">
 
-Developed during Web Development Training at Violet Programming
+### Developed during Web Development Training at Violet Programming
 
-Learning by building, testing, and connecting frontend interfaces with backend data.
+**Level 2 — Moving from frontend fundamentals into PHP, MySQL, and database-driven web development.**
 
 </div>
